@@ -14,6 +14,7 @@
 		4895D56D21A5342600EF4ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4895D56B21A5342600EF4ADB /* LaunchScreen.storyboard */; };
 		4895D57821A5342600EF4ADB /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895D57721A5342600EF4ADB /* TinderTests.swift */; };
 		4895D58321A5342600EF4ADB /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895D58221A5342600EF4ADB /* TinderUITests.swift */; };
+		4895D59121A5343C00EF4ADB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4895D59021A5343C00EF4ADB /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4895D57E21A5342600EF4ADB /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4895D58221A5342600EF4ADB /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		4895D58421A5342600EF4ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4895D59021A5343C00EF4ADB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4895D56921A5342600EF4ADB /* Assets.xcassets */,
 				4895D56B21A5342600EF4ADB /* LaunchScreen.storyboard */,
 				4895D56E21A5342600EF4ADB /* Info.plist */,
+				4895D59021A5343C00EF4ADB /* ProfileViewController.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4895D59121A5343C00EF4ADB /* ProfileViewController.swift in Sources */,
 				4895D56521A5342600EF4ADB /* ViewController.swift in Sources */,
 				4895D56321A5342600EF4ADB /* AppDelegate.swift in Sources */,
 			);
